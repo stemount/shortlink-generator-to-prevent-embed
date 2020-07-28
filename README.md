@@ -10,6 +10,8 @@ The way this would work would be either proxy the sites title (using curl, not a
 
 An example annoying use of this is here, MEE6 bot unnecessarily resolves the URL after putting quite a noisy PNG in the chat as well, it makes the introductions channel way too messy.
 
+![Shortlink Bad Example](.readme/shortlink-bad-example.png)
+
 ## What does it need?
   - A Simple UI to create a short link
   - A way to deploy to a host which offers free invocations (e.g. Cloudflare Edge CDN, Lambda, Azure's offerings, Vercel or just use Serverless to allow multiple backends) without much effort think:-
